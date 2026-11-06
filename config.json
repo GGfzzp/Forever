@@ -1,0 +1,474 @@
+{
+  "version": 1,
+  "modules": {
+    "vignette": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "vignette.strength": 1.0,
+        "vignette.size": 1.0
+      }
+    },
+    "esp": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "esp.players": false,
+        "esp.mobs": false,
+        "esp.items": false,
+        "esp.pearls": true,
+        "esp.crystals": false,
+        "esp.self": false,
+        "esp.chests": false,
+        "esp.respawnAnchor": true,
+        "esp.hands": false,
+        "esp.maxDistance": 64.0,
+        "esp.color.r": 255.0,
+        "esp.color.g": 0.0,
+        "esp.color.b": 0.0,
+        "esp.throughWalls": true,
+        "esp.glowRadius": 16.0,
+        "esp.glowIntensity": 2.5,
+        "esp.outlineWidth": 2.0,
+        "esp.downsample": 1.0,
+        "esp.chests.all": true,
+        "esp.chests.chest": true,
+        "esp.chests.trappedChest": true,
+        "esp.chests.barrel": true,
+        "esp.chests.enderChest": true,
+        "esp.chests.shulkerBox": true,
+        "esp.chests.hopper": true,
+        "esp.chests.furnace": true,
+        "esp.chests.dispenser": true,
+        "esp.chests.brewingStand": true,
+        "esp.chests.sign": true,
+        "esp.chests.banner": true,
+        "esp.chests.bell": true,
+        "esp.chests.bed": true,
+        "esp.chests.skull": true,
+        "esp.chests.spawner": true,
+        "esp.chests.beacon": true,
+        "esp.chests.lectern": true,
+        "esp.chests.enchantingTable": true,
+        "esp.chests.maxCount": 32.0,
+        "esp.respawnAnchor.maxCount": 32.0
+      }
+    },
+    "customskybox": {
+      "enabled": true,
+      "settings": {
+        "keybind": 39,
+        "customskybox.mode": "meteor",
+        "customskybox.topR": 0.0,
+        "customskybox.topG": 0.0,
+        "customskybox.topB": 0.0,
+        "customskybox.botR": 0.0,
+        "customskybox.botG": 0.0,
+        "customskybox.botB": 0.0,
+        "customskybox.auroraR": 200.0,
+        "customskybox.auroraG": 255.0,
+        "customskybox.auroraB": 255.0,
+        "customskybox.auroraSpeed": 0.6000000000000001,
+        "customskybox.auroraIntensity": 1.2000000000000002,
+        "customskybox.starBrightness": 2.0,
+        "customskybox.showSun": true,
+        "customskybox.showMoon": true,
+        "customskybox.celestialAngle": 0.0,
+        "customskybox.colorShift": 0.0,
+        "customskybox.warpStrength": 0.5,
+        "customskybox.detail": 0.7000000000000001,
+        "customskybox.starSharpness": 0.75
+      }
+    },
+    "nohurtcam": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0
+      }
+    },
+    "inventory": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "inventory.style": "pattern",
+        "inventory.pattern": "liquidmetal"
+      }
+    },
+    "soundesp": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "soundesp.radius": 200.0,
+        "soundesp.diameter": 24.0,
+        "soundesp.players": true,
+        "soundesp.mobs": true
+      }
+    },
+    "jumpering": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "jumpering.duration": 0.5,
+        "jumpering.maxRadius": 1.0,
+        "jumpering.width": 0.11,
+        "jumpering.innerFade": true,
+        "jumpering.outerFade": true,
+        "jumpering.fadeWidth": 1.0,
+        "jumpering.cooldown": 0.5,
+        "jumpering.colorR": 200.0,
+        "jumpering.colorG": 150.0,
+        "jumpering.colorB": 255.0
+      }
+    },
+    "chromaticaberration": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "chromaticaberration.intensity": 0.01,
+        "chromaticaberration.centerMask": 0.15000000000000002,
+        "chromaticaberration.contrast": 5.0
+      }
+    },
+    "timechanger": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "timechanger.mode": "fixed",
+        "timechanger.value": 24000.0
+      }
+    },
+    "motionblur": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "motionblur.strength": 0.8
+      }
+    },
+    "bloom": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "bloom.threshold": 0.8,
+        "bloom.intensity": 0.8,
+        "bloom.radius": 8.0
+      }
+    },
+    "identity": {
+      "enabled": false,
+      "settings": {
+        "keybind": 70,
+        "identity.org": true,
+        "identity.title": true,
+        "identity.danger": true,
+        "identity.potion": true,
+        "identity.health": true,
+        "identity.normal.maxDistance": 8.0,
+        "identity.maxDistance": 8.0
+      }
+    },
+    "filmgrain": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "filmgrain.intensity": 0.2,
+        "filmgrain.colored": false
+      }
+    },
+    "autosprint": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0
+      }
+    },
+    "theme": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "theme.preset": "nebula",
+        "theme.background": "chromatic",
+        "theme.starfield": true
+      }
+    },
+    "killeffect": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "killeffect.lightning": false,
+        "killeffect.color.r": 0.0,
+        "killeffect.color.g": 255.0,
+        "killeffect.color.b": 0.0,
+        "killeffect.sound": true,
+        "killeffect.notification": true
+      }
+    },
+    "walkeffect": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "walkeffect.color.r": 200.0,
+        "walkeffect.color.g": 100.0,
+        "walkeffect.color.b": 200.0,
+        "walkeffect.width": 0.01,
+        "walkeffect.lifetime": 1.0,
+        "walkeffect.minDistance": 0.8,
+        "walkeffect.ground": true,
+        "walkeffect.air": true,
+        "walkeffect.water": true
+      }
+    },
+    "liquidglass": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "liquidglass.blur": 1.0,
+        "liquidglass.blurRadius": 1.0,
+        "liquidglass.powerFactor": 8.0,
+        "liquidglass.noise": 0.0,
+        "liquidglass.refractionPower": 0.8,
+        "liquidglass.glowWeight": 0.0,
+        "liquidglass.glowBias": 0.0,
+        "liquidglass.glowEdge0": 0.06,
+        "liquidglass.glowEdge1": 0.0
+      }
+    },
+    "autocrystal": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "autocrystal.range": 4.0,
+        "autocrystal.pov": 120.0,
+        "autocrystal.damageWeight": 1.0,
+        "autocrystal.comfortWeight": 1.5,
+        "autocrystal.existingBonus": 100.0,
+        "autocrystal.silent": true,
+        "autocrystal.sword": true
+      }
+    },
+    "colorgrading": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "colorgrading.saturation": 1.0,
+        "colorgrading.brightness": 1.0,
+        "colorgrading.contrast": 1.0,
+        "colorgrading.tint": 0.0
+      }
+    },
+    "hotbar": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "hotbar.slotSize": 20.0,
+        "hotbar.slotGap": 2.0,
+        "hotbar.pad": 2.0,
+        "hotbar.corner": 3.0,
+        "hotbar.slotAlpha": 0.4,
+        "hotbar.selAlpha": 0.35000000000000003,
+        "hotbar.selGlow": 0.6000000000000001,
+        "hotbar.selGlowSize": 3.0,
+        "hotbar.offhandGap": 4.0,
+        "hotbar.animSpeed": 14.0,
+        "hotbar.fadeSpeed": 6.0
+      }
+    },
+    "frostedglass": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "frostedglass.blur": 1.0,
+        "frostedglass.blurRadius": 1.0,
+        "frostedglass.noise": 0.0,
+        "frostedglass.brightness": 0.8,
+        "frostedglass.shadow": 0.0,
+        "frostedglass.shadowSpread": 0.0
+      }
+    },
+    "potiontimer": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "potiontimer.textSize": 1.0,
+        "potiontimer.bgPadding": 4.0,
+        "potiontimer.bgAlpha": 0.5
+      }
+    },
+    "customfov": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "customfov.value": 70.0
+      }
+    },
+    "brightness": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "brightness.amount": 0.0
+      }
+    },
+    "clickgui": {
+      "enabled": false,
+      "settings": {
+        "keybind": 93,
+        "clickgui.style": "dropdown"
+      }
+    },
+    "hud": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "hud.keystrokes.layout": "wasd",
+        "hud.fontSize": 1.0,
+        "hud.show.waveform": false,
+        "hud.show.fps": false,
+        "hud.show.coordinates": false,
+        "hud.show.ping": false,
+        "hud.show.arraylist": false,
+        "hud.show.armor": false,
+        "hud.show.resistance": true,
+        "hud.show.statusbar": true,
+        "hud.show.hotbar": true,
+        "hud.show.keystrokes": true,
+        "hud.show.notifications": true,
+        "hud.style": "pattern",
+        "hud.arraylistLineGap": 2.0,
+        "hud.arraylist.style": "pattern",
+        "hud.arraylistBackgroundConnected": true,
+        "hud.pattern": "liquidmetal"
+      }
+    },
+    "nebulafog": {
+      "enabled": false,
+      "settings": {
+        "keybind": 0,
+        "nebulafog.colorR": 200.0,
+        "nebulafog.colorG": 208.0,
+        "nebulafog.colorB": 216.0,
+        "nebulafog.start": 0.0,
+        "nebulafog.end": 0.5,
+        "nebulafog.overrideAll": false
+      }
+    },
+    "statusbar": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "statusbar.barWidth": 80.0,
+        "statusbar.barHeight": 6.0,
+        "statusbar.gap": 20.0,
+        "statusbar.goldHeight": 4.0,
+        "statusbar.goldGap": 4.0,
+        "statusbar.corner": 3.0,
+        "statusbar.glowSize": 3.0,
+        "statusbar.glowAlpha": 0.35000000000000003,
+        "statusbar.healthR": 230.0,
+        "statusbar.healthG": 0.0,
+        "statusbar.healthB": 0.0,
+        "statusbar.foodR": 0.0,
+        "statusbar.foodG": 0.0,
+        "statusbar.foodB": 0.0,
+        "statusbar.goldR": 255.0,
+        "statusbar.goldG": 216.0,
+        "statusbar.goldB": 102.0
+      }
+    },
+    "notifications": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "notifications.enable": true,
+        "notifications.moduleToggle": true,
+        "notifications.themeChange": true
+      }
+    },
+    "font": {
+      "enabled": true,
+      "settings": {
+        "keybind": 0,
+        "font.family": "verdanaz"
+      }
+    }
+  },
+  "hud": {
+    "fps": {
+      "customPosition": true,
+      "posX": 0.43229166,
+      "posY": 0.09074074,
+      "customWidth": -1.0,
+      "customHeight": -1.0
+    },
+    "coordinates": {
+      "customPosition": true,
+      "posX": 0.12135417,
+      "posY": 0.0037037036,
+      "customWidth": -1.0,
+      "customHeight": -1.0
+    },
+    "ping": {
+      "customPosition": true,
+      "posX": 0.54322916,
+      "posY": 0.009259259,
+      "customWidth": -1.0,
+      "customHeight": -1.0
+    },
+    "arraylist": {
+      "customPosition": true,
+      "posX": 0.0,
+      "posY": 0.12314815,
+      "customWidth": 121.5,
+      "customHeight": 20.5
+    },
+    "armor": {
+      "customPosition": true,
+      "posX": 0.32135418,
+      "posY": 0.0074074073,
+      "customWidth": -1.0,
+      "customHeight": -1.0
+    },
+    "resistance": {
+      "customPosition": false,
+      "posX": 0.46197918,
+      "posY": 0.7675926,
+      "customWidth": -1.0,
+      "customHeight": -1.0,
+      "parentId": "hotbar"
+    },
+    "statusbar": {
+      "customPosition": true,
+      "posX": 0.40729168,
+      "posY": 0.8277778,
+      "customWidth": -1.0,
+      "customHeight": -1.0
+    },
+    "hotbar": {
+      "customPosition": true,
+      "posX": 0.33020833,
+      "posY": 0.73796296,
+      "customWidth": 323.5,
+      "customHeight": 46.5
+    },
+    "keystrokes": {
+      "customPosition": true,
+      "posX": 0.28645834,
+      "posY": 0.84074074,
+      "customWidth": 85.0,
+      "customHeight": 86.0
+    },
+    "waveform": {
+      "customPosition": false,
+      "posX": 0.41927084,
+      "posY": 0.0,
+      "customWidth": 123.5,
+      "customHeight": 26.0,
+      "parentId": "fps"
+    },
+    "notifications": {
+      "customPosition": true,
+      "posX": 0.5960938,
+      "posY": 0.95555556,
+      "customWidth": -1.0,
+      "customHeight": -1.0
+    }
+  },
+  "friends": []
+}
